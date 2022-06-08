@@ -39,6 +39,7 @@
 * [LinkedInParticipantReceipts](_src_entities_index_.md#linkedinparticipantreceipts)
 * [LinkedInPhotoFilterPicture](_src_entities_index_.md#linkedinphotofilterpicture)
 * [LinkedInProfile](_src_entities_index_.md#linkedinprofile)
+* [LinkedInProfileContactInfo](_src_entities_index_.md#linkedinprofilecontactinfo)
 * [LinkedInSearchCluster](_src_entities_index_.md#linkedinsearchcluster)
 * [LinkedInSearchHitV2](_src_entities_index_.md#linkedinsearchhitv2)
 * [LinkedInTextViewModel](_src_entities_index_.md#linkedintextviewmodel)
@@ -243,6 +244,12 @@ ___
 ### LinkedInProfile
 
 Re-exports: [LinkedInProfile](../interfaces/_src_entities_linkedin_profile_entity_.linkedinprofile.md)
+
+___
+
+### LinkedInProfileContactInfo
+
+Re-exports: [LinkedInProfileContactInfo](../interfaces/_src_entities_linkedin_profile_entity_.linkedinprofilecontactinfo.md)
 
 ___
 

@@ -4,6 +4,7 @@ export * from './conversations.response.get';
 export * from './message.response.post';
 export * from './messages.response.get';
 export * from './own-profile.response.get';
+export * from './profile.contact-info.response.get';
 export * from './profile.response.get';
 export * from './received-invitations.response.get';
 export * from './sent-invitations.response.get';

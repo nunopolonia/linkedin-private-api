@@ -10,6 +10,7 @@
 
 * [LinkedInPhotoFilterPicture](../interfaces/_src_entities_linkedin_profile_entity_.linkedinphotofilterpicture.md)
 * [LinkedInProfile](../interfaces/_src_entities_linkedin_profile_entity_.linkedinprofile.md)
+* [LinkedInProfileContactInfo](../interfaces/_src_entities_linkedin_profile_entity_.linkedinprofilecontactinfo.md)
 
 ### Type aliases
 
@@ -25,7 +26,7 @@
 
 Ƭ  **ProfileUrn**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:38](https://github.com/twolionsco/linkedin-private-api/blob/a05191c/src/entities/linkedin-profile.entity.ts#L38)*
+*Defined in [src/entities/linkedin-profile.entity.ts:38](https://github.com/twolionsco/linkedin-private-api/blob/6efeb13/src/entities/linkedin-profile.entity.ts#L38)*
 
 ## Variables
 
@@ -33,4 +34,4 @@
 
 • `Const` **PROFILE\_TYPE**: \"com.linkedin.voyager.dash.identity.profile.Profile\" = "com.linkedin.voyager.dash.identity.profile.Profile"
 
-*Defined in [src/entities/linkedin-profile.entity.ts:4](https://github.com/twolionsco/linkedin-private-api/blob/a05191c/src/entities/linkedin-profile.entity.ts#L4)*
+*Defined in [src/entities/linkedin-profile.entity.ts:4](https://github.com/twolionsco/linkedin-private-api/blob/6efeb13/src/entities/linkedin-profile.entity.ts#L4)*

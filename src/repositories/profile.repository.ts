@@ -3,7 +3,7 @@ import { filter, get, keyBy, map } from 'lodash';
 import { Client } from '../core/client';
 import { COMPANY_TYPE, LinkedInCompany } from '../entities/linkedin-company.entity';
 import { LinkedInMiniProfile, MINI_PROFILE_TYPE } from '../entities/linkedin-mini-profile.entity';
-import { LinkedInProfile, PROFILE_TYPE } from '../entities/linkedin-profile.entity';
+import { LinkedInProfile, LinkedInProfileContactInfo, PROFILE_TYPE } from '../entities/linkedin-profile.entity';
 import { LinkedInVectorImage } from '../entities/linkedin-vector-image.entity';
 import { MiniProfile, ProfileId } from '../entities/mini-profile.entity';
 import { Profile } from '../entities/profile.entity';
@@ -60,5 +60,19 @@ export class ProfileRepository {
     }
 
     return this.getProfile(miniProfile);
+  }
+
+  async getContactInfo({ publicIdentifier }: { publicIdentifier: string }): Promise<LinkedInProfileContactInfo> {
+    const response = await this.client.request.profile.getContactInfo({ publicIdentifier });
+
+    return response.data;
+  }
+
+  async follow({ profileId }: { profileId: string }): Promise<void> {
+    await this.client.request.profile.follow({ profileId });
+  }
+
+  async unfollow({ profileId }: { profileId: string }): Promise<void> {
+    await this.client.request.profile.unfollow({ profileId });
   }
 }

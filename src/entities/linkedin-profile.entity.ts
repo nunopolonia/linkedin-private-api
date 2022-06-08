@@ -77,3 +77,21 @@ export interface LinkedInProfile {
   trackingId: string;
   versionTag: string;
 }
+
+export interface LinkedInProfileContactInfo {
+  birthDateOn: number;
+  birthdayVisibilitySetting: string;
+  address: string;
+  weChatContactInfo:	string;
+  primaryTwitterHandle: string;
+  twitterHandles:	string[];
+  phoneNumbers: string[];
+  ims: string[];
+  $type:	"com.linkedin.voyager.identity.profile.ProfileContactInfo";
+  emailAddress:	string;
+  entityUrn: ProfileUrn;
+  connectedAt: number;
+  websites: string[];
+  sesameCreditGradeInfo: string;
+  interests: string[];
+}
