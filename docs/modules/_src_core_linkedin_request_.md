@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[@twolions/linkedin-private-api](../README.md)**
 
 > [Globals](../globals.md) / "src/core/linkedin-request"
 

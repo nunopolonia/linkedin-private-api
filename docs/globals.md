@@ -1,8 +1,8 @@
-**[linkedin-private-api](README.md)**
+**[@twolions/linkedin-private-api](README.md)**
 
 > Globals
 
-# linkedin-private-api
+# @twolions/linkedin-private-api
 
 ## Index
 
